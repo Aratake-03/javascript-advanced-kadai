@@ -105,7 +105,7 @@ const gameOver = id => {
         if (result == true) {
             window.location.reload();
         }
-    }, 1000);
+    }, 10);
 };
 
 // カウントダウンタイマー
@@ -124,7 +124,7 @@ const timer = () => {
         if (time <= 0) {
             gameOver(id);
         }
-    }, 10);
+    }, 1000);
 };
 
 // ゲームスタート時の処理
